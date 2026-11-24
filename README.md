@@ -19,3 +19,18 @@ Think of each root entry as a card. This means that you only ever select one of 
 ### Looking for Enhancements on multi-model cards?
 
 Tap on their name! Equipment? Tap on that!
+
+### Adding this Repository
+
+Desktop:
+
+1. Click on the plus symbol.
+   ![Step 1](/home/ben/Documents/GitHub/bushido-data/images/01.png)
+2. Click on 'Add from GitHub'.
+   ![Step 2](/home/ben/Documents/GitHub/bushido-data/images/02.png)
+3. Paste `github.com/GCT-Studios/bushido-data` and click 'Add'.
+   ![Step 3](/home/ben/Documents/GitHub/bushido-data/images/03.png)
+4. Profit.
+   ![Step 4](/home/ben/Documents/GitHub/bushido-data/images/04.png)
+
+The process is almost identical for mobile.
