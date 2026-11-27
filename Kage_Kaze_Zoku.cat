@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Kage Kaze Zoku" id="b4d7-0e2a-728f-20cf" battleScribeVersion="2.03" gameSystemId="62e4-ab79-1c4c-9ffe" gameSystemRevision="19" library="false" revision="54" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Kage Kaze Zoku" id="b4d7-0e2a-728f-20cf" battleScribeVersion="2.03" gameSystemId="62e4-ab79-1c4c-9ffe" gameSystemRevision="19" library="false" revision="55" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Library_Ronin" id="33fc-165a-e38d-1082" importRootEntries="true" targetId="b489-b304-948d-52d0" type="catalogue"/>
   </catalogueLinks>
@@ -258,6 +258,9 @@
                 <condition childId="4e1c-43c9-596d-ef16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
                 <condition childId="4750-f234-49e4-79c1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
                 <condition childId="0e4a-a40c-14eb-2f4f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="f423-abc7-6e32-6e8c" childName="Scouting Mission" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="6c2d-b743-18d7-2779" childName="Skirmish Mission" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="70cc-ef54-f1d8-9837" childName="Assassination Mission" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -4931,8 +4934,7 @@ It is assumed that the Ki Feat is written on this model&apos;s card.</characteri
               <characteristics>
                 <characteristic name="Description" typeId="b4b7-5338-e8e2-41fd">At the start of this model&apos;s activation choose one of the following:
 - If this model enters BtB with an Enemy model through a Replace effect, the Enemy model is Surprised until the end of the activation regardless of the usual requirements.
-- Choose a listed Special Attack or Defence on any Friendly Unknown &amp; Ninja model currently on the Battlefield. This model&apos;s Black Edged Kunai Melee Weapon gains that Special Ability until the end of this activation at Cost (0).
-</characteristic>
+- Choose a listed Special Attack or Defence on any Friendly Unknown &amp; Ninja model currently on the Battlefield. This model&apos;s Black Edged Kunai Melee Weapon gains that Special Ability until the end of this activation at Cost (0).</characteristic>
               </characteristics>
             </profile>
             <profile name="Eclipse" id="8227-dcc7-2e60-1615" hidden="false" typeId="2f00-4eb0-a8cb-7022" typeName="Unique Effects">
@@ -4974,8 +4976,7 @@ It is assumed that the Kagenori No Koto Feat is listed and written on this model
                 <characteristic name="Range Bands" typeId="be6a-50c6-d691-e2e9">3/5/7</characteristic>
                 <characteristic name="Traits" typeId="3410-4428-ef91-eb61">Ammo (2), Lightweight, Pierce (3)</characteristic>
                 <characteristic name="Specials" typeId="cdaf-b6ac-89d4-39ef"/>
-                <characteristic name="Unique Effects" typeId="3bf8-6525-f003-4990">
-</characteristic>
+                <characteristic name="Unique Effects" typeId="3bf8-6525-f003-4990"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5102,19 +5103,15 @@ While this model is in play, the Eclipse you own has Soulless and Ki Stat of 0/8
         <profile name="Reikon from Jigoku" id="9fa9-e934-40cd-0179" hidden="false" typeId="08e8-3cf2-6d1d-b8f0" typeName="Character Profile">
           <characteristics>
             <characteristic name="Melee Pool" typeId="eea0-d5a3-2540-a974">3</characteristic>
-            <characteristic name="Melee Boost" typeId="4d43-9498-6fa0-8277">
-</characteristic>
+            <characteristic name="Melee Boost" typeId="4d43-9498-6fa0-8277"/>
             <characteristic name="Ranged Pool" typeId="54f1-7472-e609-b4eb">0</characteristic>
-            <characteristic name="Ranged Boost" typeId="5454-b765-a65d-8a33">
-</characteristic>
+            <characteristic name="Ranged Boost" typeId="5454-b765-a65d-8a33"/>
             <characteristic name="Move" typeId="91b7-833e-fd8e-a620">5</characteristic>
-            <characteristic name="Move Boost" typeId="f168-6d2b-e60e-28ac">
-</characteristic>
+            <characteristic name="Move Boost" typeId="f168-6d2b-e60e-28ac"/>
             <characteristic name="Ki" typeId="3969-9568-a914-6854">2</characteristic>
             <characteristic name="Ki Boost" typeId="5b71-1ed7-9aa7-039c"/>
             <characteristic name="Ki Cap" typeId="9a7e-38d3-92c5-a672">2</characteristic>
-            <characteristic name="Wounds" typeId="2ee5-ab93-4a78-ea29">
-</characteristic>
+            <characteristic name="Wounds" typeId="2ee5-ab93-4a78-ea29"/>
             <characteristic name="Size &amp; Base" typeId="6cf9-c5fd-3e3c-b35b">Small 30mm</characteristic>
           </characteristics>
         </profile>
